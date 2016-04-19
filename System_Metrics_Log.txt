@@ -1,0 +1,354 @@
+{
+  "took" : 73,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 10,
+    "successful" : 10,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4959,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUC2L-AV-u539x4w",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.122Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\WINDOWS\\TEMP\\DPTF\\esif_assist_64.exe\"",
+          "cpu" : {
+            "user" : 62,
+            "user_p" : 0,
+            "system" : 93,
+            "total" : 155,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 1171456,
+            "rss" : 4141056,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "esif_assist_64.exe",
+          "pid" : 13076,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUC2L-AV-u539x4x",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.133Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "sihost.exe",
+          "cpu" : {
+            "user" : 3281,
+            "user_p" : 0,
+            "system" : 3109,
+            "total" : 6390,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 5537792,
+            "rss" : 23429120,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "sihost.exe",
+          "pid" : 14680,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUC3L-AV-u539x42",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.177Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "igfxHK.exe ",
+          "cpu" : {
+            "user" : 62,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 93,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 2240512,
+            "rss" : 8925184,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "igfxHK.exe",
+          "pid" : 15272,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUC3L-AV-u539x43",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.184Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\Explorer.EXE",
+          "cpu" : {
+            "user" : 39843,
+            "user_p" : 0.003,
+            "system" : 80390,
+            "total" : 120233,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 80711680,
+            "rss" : 142102528,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "explorer.exe",
+          "pid" : 8868,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUXKL-AV-u539x4-",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.227Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\WINDOWS\\SystemApps\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\SearchUI.exe\" -ServerName:CortanaUI.AppXa50dqqa5gqv4a428c9y1jjw7m3btvepj.mca",
+          "cpu" : {
+            "user" : 8656,
+            "user_p" : 0,
+            "system" : 2671,
+            "total" : 11327,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 78544896,
+            "rss" : 133963776,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "SearchUI.exe",
+          "pid" : 14748,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUXKL-AV-u539x5G",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.280Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe\" -osint -url \"http://go.microsoft.com/fwlink/?LinkID=219472&clcid=0x409\"",
+          "cpu" : {
+            "user" : 2411437,
+            "user_p" : 0.1233,
+            "system" : 365203,
+            "total" : 2776640,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 723353600,
+            "rss" : 739942400,
+            "rss_p" : 0.09,
+            "share" : 0
+          },
+          "name" : "firefox.exe",
+          "pid" : 14132,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUXKL-AV-u539x5H",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.286Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Hewlett-Packard\\HP System Event\\HPMSGSVC.exe\" ",
+          "cpu" : {
+            "user" : 46,
+            "user_p" : 0,
+            "system" : 78,
+            "total" : 124,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 1769472,
+            "rss" : 8327168,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "HPMSGSVC.exe",
+          "pid" : 10256,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQrGUXKL-AV-u539x5T",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.400Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\Jaswinder Singh\\Downloads\\Compressed\\topbeat-1.2.1-windows\\topbeat.exe\" ",
+          "cpu" : {
+            "user" : 343,
+            "user_p" : 0.0236,
+            "system" : 1062,
+            "total" : 1405,
+            "start_time" : "Sep29"
+          },
+          "mem" : {
+            "size" : 14823424,
+            "rss" : 15237120,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "topbeat.exe",
+          "pid" : 10572,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "JAZZ\\Jaswinder Singh"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQrGUXKL-AV-u539x5X",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T20:39:15.740Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "E:\\",
+          "total" : 211145453568,
+          "used" : 170883600384,
+          "used_p" : 0.81,
+          "free" : 40261853184,
+          "avail" : 40261853184,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "E:\\"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQvmWCEW7a3jloOIV4X",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T17:28:46.828Z",
+        "beat" : {
+          "hostname" : "JAZZ",
+          "name" : "JAZZ"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\SysWOW64\\esif_uf.exe",
+          "cpu" : {
+            "user" : 31,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 62,
+            "start_time" : "Sep29"
+          },
+          "mem" : {
+            "size" : 1691648,
+            "rss" : 6455296,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "esif_uf.exe",
+          "pid" : 2716,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
